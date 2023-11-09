@@ -22,7 +22,7 @@ while True:
 
     user_input = input(": ")
 
-    if user_input == "quit":
+    if user_input == "q":
         break
     elif user_input in ("1", "2", "3", "4"):
         num1 = float(input("Enter first number: "))
